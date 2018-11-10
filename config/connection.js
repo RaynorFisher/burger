@@ -8,7 +8,7 @@ var connection;
     host: "lgg2gx1ha7yp2w0k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     user: "xtflwpv1fakm6jq8",
     password: "acx3zn9sbi4cnjjq",
-    database: "	q7q1jmjoorfo08fn"
+    database: "q7q1jmjoorfo08fn"
   });
 };
 //Handle errors
