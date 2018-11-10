@@ -11,7 +11,8 @@ It also uses an ORM to help with the communication with the database.
 
 3. Louise keeps track of each burger she eats!
 
-## Handlebars handles some of the display while MySQL is used to actually store the burgers that are made
-and eaten. 
+## Handlebars handles some of the display while MySQL is used to actually store the burgers that are made and eaten. 
+
+![Screenshot](https://github.com/RaynorFisher/burger/blob/master/screenshot.png)
 
 *Local Host is set to 5500
