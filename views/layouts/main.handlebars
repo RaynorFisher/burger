@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bob's Burgers</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" href="assets/css/burger_style.css">
+   </head>
+
+  <body>
+    <div class="container-fluid">
+    <center>
+      <div class="row">
+      <img src="assets/img/bobburg.png" alt="Burger Img">
+    <div class="jumbotron">
+    <h1>Bob's Burgers</h1>      
+    <p>Bob made some burgers, pick one to eat! 
+    ORDER UP! Request a Bob to make a burger for you to eat!
+    </p>        
+   
+      <br>
+      
+      {{{body}}}
+    <br>
+      <form action="burger/create" method="POST"> 
+        <div class="row">
+          <div class="col-md-3"></div> 
+          <div class="form-group col-md-6">
+            <center><label for="new_burger" class="subFont2">Ask Linda for a new kind of burger!</label></center>
+            <textarea class="form-control" type="text" columns="1" rows="2" id="new_burger required value="" name="burger_name"></textarea>
+          </div>
+         
+          <div class="col-md-3"></div> 
+        </div>
+    
+          <button id="submit-button" type="submit" class="btn"> Bobbbbbb Make this one!</button>
+     
+      </form>
+      <br>
+    </div>
+  </body>
+</html> 

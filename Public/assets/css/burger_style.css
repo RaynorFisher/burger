@@ -1,0 +1,26 @@
+.subFont{
+  color: pink;
+  font-family: 'Courier New', Courier, monospace;
+}
+  
+.subFont1{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.subFont2{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: peru; 
+}
+
+.jumbotron{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #654321;
+      border-bottom-color: red;
+      border-bottom: orangered;
+  }
+  
